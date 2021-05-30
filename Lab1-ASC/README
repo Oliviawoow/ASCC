@@ -1,0 +1,18 @@
+Oprea Olivia 333CA Lab1
+
+Pentru inceput am creat functia main in care am un parametru, command_exit care este fals si cat timp nu s-a dat comanda
+exit acesta va executa restul comenzilor. M-am asigurat ca celelalte comenzi vor returna fals ca sa pot sa continui pe
+aceasta idee. Daca dam o comanda gresita nu se v-a lua in considerare.
+Mi-am creat un dictionar de comenzi de tip comanda-functie. De asemenea o lista de nume de cafele si inca una de resurse
+necesare pentru fiecare cafea.
+Functia exit_machine e functia de exit ce imi modifica parametrul command_exit in true si se termina programul.
+Functia list_coffees imi parcurge lista mea de cafele si le afiseaza una cate una ca un meniu, folosindu-se de marimea
+listei coffee_names.
+Functia make_coffee verifica mai intai daca am destule resurse pentru a face cafeaua ceruta comparand resursele mele cu
+resursele cafelei respective. Daca pot sa fac cafeaua imi voi scadea din resursele mele resursele cafelei si voi oferi
+cafeaua ceruta.
+Functia refill verifica ce resursa de umplut i-am dat si o aduce inapoi la 100% sau daca am dat all o sa aduca toate
+resursele la 100%.
+Functia resource_status verifica in resurse resursa si cat la suta am din ea si afiseaza un tuplu cu acestea de tip
+resursa-procent.
+Functia help_me face doar un print in care explic pe scurt ce face fiecare comanda si comanda si le insiruie ca o lista.

@@ -1,0 +1,59 @@
+Oprea Olivia 333CA Lab2
+TASK 2:
+Mai intai verific daca am numarul corect de argumente si daca nu sunt corecte voi afisa eroare si programul se termina.
+Imi iau numarul de threaduri de la tastatura iar apoi pentru fiecare thread voi merge in functia my_thread pentru a
+afisa mesajul corespunzator. Pentru generarea de numere am folosit random si am trimis-o ca parametru la functia mea
+de afisare. Toate acestea se intampla de num_threads ori.
+/*
+Hello, I'm Thread-1 and I received the number 96
+Hello, I'm Thread-2 and I received the number 80
+Hello, I'm Thread-3 and I received the number 26
+*/
+
+TASK 3:
+Am facut clasa coffee sa returneze numele si marimea cafelei.
+Apoi dupa exemplul dat am facut pentru fiecare tip de cafea propria clasa si cu propriul mesaj personalizat.
+Ca sa se produce/consuma cafele random am facut 2 functii de random care isi aleg tipul cafelei si marimea dintr-o lista.
+In clasa distribuitor am implementata logica producatorului si consumatorului si de asemenea mesajele afisate.
+Clasa CoffeeFactory imi va produce in continuu (loop) cafele random, iar clasa User imi va consuma cafele random tot asa
+in loop.
+/*
+Factory 8 produced a nice medium espresso
+Factory 1 produced an italian large cappuccino
+Factory 0 produced an italian medium cappuccino
+Consumer 17 consumed cappuccino
+Factory 9 produced an italian small cappuccino
+Consumer 9 consumed cappuccino
+Consumer 18 consumed cappuccino
+Factory 4 produced a nice medium espresso
+Consumer 2 consumed americano
+Factory 6 produced a nice small espresso
+Consumer 9 consumed espresso
+Factory 5 produced a strong large americano
+Factory 2 produced a nice small espresso
+Consumer 6 consumed espresso
+Factory 6 produced a strong medium americano
+Consumer 9 consumed americano
+Factory 1 produced a nice large espresso
+Consumer 20 consumed espresso
+Consumer 24 consumed americano
+Factory 0 produced a nice large espresso
+Consumer 9 consumed espresso
+Factory 9 produced a nice large espresso
+Consumer 10 consumed espresso
+Factory 4 produced an italian small cappuccino
+Factory 8 produced a nice large espresso
+Consumer 14 consumed espresso
+Factory 5 produced a strong medium americano
+Consumer 15 consumed americano
+Factory 2 produced an italian large cappuccino
+Consumer 0 consumed cappuccino
+Consumer 14 consumed cappuccino
+Factory 5 produced a nice large espresso
+Consumer 15 consumed espresso
+Factory 1 produced a nice small espresso
+Consumer 16 consumed espresso
+Factory 0 produced a nice small espresso
+Factory 5 produced an italian small cappuccino
+Consumer 15 consumed cappuccino
+*/
